@@ -39,3 +39,8 @@ client_scripts {
 	'GUI.lua',
 	'client.lua',
 }
+
+dependencies {
+	'dfs',
+	'dfs_PoliceJob' --This is used for gathering a list of police jobs, and determining wheter the current player IsCop()
+}
